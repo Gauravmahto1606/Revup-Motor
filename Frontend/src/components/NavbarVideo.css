@@ -1,0 +1,43 @@
+
+/* NavbarVideo.css */
+.carVideo {
+    position: relative;
+    width: 100%;
+    height: 80vh; 
+    overflow: hidden;
+}
+
+.carVideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1272px) {
+    .carVideo {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 922px) {
+    .carVideo {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .carVideo {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 512px) {
+    .carVideo {
+        height: 40vh;
+    }
+}
